@@ -45,6 +45,9 @@ function LoadHomePage() {
     let location = document.createElement("div");
     location.appendChild(addParagraphWithText("Tunisia, Monastir, 5014"));
 
+    // clear #content
+    document.querySelector("#content"). innerHTML = "";
+    
     document.querySelector("#content").appendChild(title);
     document.querySelector("#content").appendChild(homeImage);
     document.querySelector("#content").appendChild(description);
