@@ -45,14 +45,16 @@ function LoadHomePage() {
     let location = document.createElement("div");
     location.appendChild(addParagraphWithText("Tunisia, Monastir, 5014"));
 
+    let content = document.querySelector("#content")
+
     // clear #content
-    document.querySelector("#content"). innerHTML = "";
-    
-    document.querySelector("#content").appendChild(title);
-    document.querySelector("#content").appendChild(homeImage);
-    document.querySelector("#content").appendChild(description);
-    document.querySelector("#content").appendChild(hours);
-    document.querySelector("#content").appendChild(location);
+    content.innerHTML = "";
+
+    content.appendChild(title);
+    content.appendChild(homeImage);
+    content.appendChild(description);
+    content.appendChild(hours);
+    content.appendChild(location);
 }
 
 export {LoadHomePage};
