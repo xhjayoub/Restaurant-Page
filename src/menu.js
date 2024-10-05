@@ -31,17 +31,17 @@ function LoadMenuPage() {
     menuContent.setAttribute("class", "foods");
     // foods
     let chappati = foodGenerateDev({
-        img: "./img/hello.png",
+        img: "./images/chappati.jpg",
         text: "Chappati",
         price : "3dt",
     });
     let lablabi = foodGenerateDev({
-        img: "./img/hello.png",
+        img: "./imgages/lablabi.jpg",
         text: "Lablabi",
         price : "5dt",
     })
     let platTunisien = foodGenerateDev({
-        img: "./img/hello.png",
+        img: "./imgages/platTounsi.jpg",
         text: "Plat Tunisien",
         price : "5dt",
     })
