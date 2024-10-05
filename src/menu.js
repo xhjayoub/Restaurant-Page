@@ -36,12 +36,12 @@ function LoadMenuPage() {
         price : "3dt",
     });
     let lablabi = foodGenerateDev({
-        img: "./imgages/lablabi.jpg",
+        img: "./images/lablabi.jpg",
         text: "Lablabi",
         price : "5dt",
     })
     let platTunisien = foodGenerateDev({
-        img: "./imgages/platTounsi.jpg",
+        img: "./images/platTounsi.jpg",
         text: "Plat Tunisien",
         price : "5dt",
     })

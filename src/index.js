@@ -1,5 +1,8 @@
 import "./styles.css";
 import img from "./images/Flag_of_Tunisia.png";
+import img2 from "./images/chappati.jpg";
+import img3 from "./images/lablabi.jpg";
+import img4 from "./images/platTounsi.jpg";
 import { LoadHomePage } from "./home.js";
 import { LoadMenuPage } from "./menu.js";
 import { LoadAboutPage } from "./about.js";
