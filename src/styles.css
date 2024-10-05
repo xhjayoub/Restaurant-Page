@@ -84,9 +84,13 @@ header {
 
 button {
     border: 0;
-    height: 5vh;
-    width: 5vw;
+    height: 70px;
+    width: 100px;
     background-color: blanchedalmond;
+}
+nav {
+    display: flex;
+    gap: 15px;
 }
 
 .title {
@@ -98,4 +102,12 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
+}
+#content div {
+    width: 500px;
+}
+.homepage-img {
+
+    height: auto;
 }
