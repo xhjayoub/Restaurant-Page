@@ -35,6 +35,16 @@ function LoadMenuPage() {
         text: "Chappati",
         price : "3dt",
     });
+    let lablabi = foodGenerateDev({
+        img: "./img/hello.png",
+        text: "Lablabi",
+        price : "5dt",
+    })
+    let platTunisien = foodGenerateDev({
+        img: "./img/hello.png",
+        text: "Plat Tunisien",
+        price : "5dt",
+    })
 
     let content = document.querySelector("#content");
     content.innerHTML = "";
@@ -42,5 +52,7 @@ function LoadMenuPage() {
     content.appendChild(title);
     content.appendChild(menuContent);
     content.appendChild(chappati);
+    content.appendChild(lablabi);
+    content.appendChild(platTunisien);
 }
 export { LoadMenuPage };
