@@ -104,8 +104,15 @@ nav {
     align-items: center;
     gap: 15px;
 }
-#content div {
+#content > div {
     width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 2%;
 }
 .homepage-img {
 
