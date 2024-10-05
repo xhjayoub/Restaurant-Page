@@ -19,6 +19,7 @@ function foodGenerateDev(food) {
     container.appendChild(foodImageContainer);
     container.appendChild(title);
     container.appendChild(price);
+    return container;
 }
 
 function LoadMenuPage() {
@@ -28,13 +29,18 @@ function LoadMenuPage() {
 
     let menuContent = document.createElement("div");
     menuContent.setAttribute("class", "foods");
-
-
+    // foods
+    let chappati = foodGenerateDev({
+        img: "./img/hello.png",
+        text: "Chappati",
+        price : "3dt",
+    });
 
     let content = document.querySelector("#content");
     content.innerHTML = "";
 
     content.appendChild(title);
     content.appendChild(menuContent);
+    content.appendChild(chappati);
 }
 export { LoadMenuPage };
