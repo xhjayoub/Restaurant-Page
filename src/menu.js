@@ -45,14 +45,14 @@ function LoadMenuPage() {
         text: "Plat Tunisien",
         price : "5dt",
     })
-
+    menuContent.appendChild(chappati);
+    menuContent.appendChild(lablabi);
+    menuContent.appendChild(platTunisien);
     let content = document.querySelector("#content");
     content.innerHTML = "";
 
     content.appendChild(title);
     content.appendChild(menuContent);
-    content.appendChild(chappati);
-    content.appendChild(lablabi);
-    content.appendChild(platTunisien);
+    
 }
 export { LoadMenuPage };
